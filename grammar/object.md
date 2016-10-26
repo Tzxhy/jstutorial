@@ -237,7 +237,7 @@ o[3 + 3]
 ```javascript
 obj.0xFF
 // SyntaxError: Unexpected token
-obj[0xFF]
+obj["0xFF"]
 // true
 ```
 
